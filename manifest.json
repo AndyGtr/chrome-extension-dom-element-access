@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "DOM Element Access",
+    "version": "1.0",
+    "description": "Accesses an HTML element and alerts if the URL is not recognized or the element doesn't exist.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "",
+      "default_icon": {
+        "48": "images/icon.png"
+      }
+    },
+    "icons": {
+      "48": "images/icon.png"
+    }
+  }
+  
